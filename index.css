@@ -1,0 +1,359 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+@font-face {
+    font-family: PingFangTC-Regular;
+    src: url(./font/PingFang-SC-Regular.ttf)
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/*=======================CSS reset end=================================*/
+
+.wrap {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*=======================Header section================================*/
+.headerbox {
+    background-image: url(./img/header_background.png);
+    /*讓背景圖符合目前螢幕大小*/
+    background-size: cover;
+    height: 380px;
+
+}
+
+h1 {
+    font-family: PingFang-SC-Regular;
+    font-size: 40px;
+    color: #FFFFFF;
+    letter-spacing: 3.89px;
+    text-align: center;
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+
+.selectlist {
+    background: rgba(255, 255, 255, 0.70);
+    display: block;
+    border: 3px solid #FFFFFF;
+    border-radius: 3px;
+    height: 48px;
+    width: 452px;
+    font-family: PingFang-SC-Regular;
+    font-size: 18px;
+    color: #000000;
+    line-height: 21px;
+    margin: auto auto;
+
+}
+
+.famous-region {
+    background: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.20);
+    border-radius: 5px;
+    height: 122px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 95px;
+
+}
+
+.famous-region>span {
+    display: block;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+
+}
+
+.famous-region>button:nth-child(2) {
+    margin-left: 50px;
+    background: #8A82CC;
+}
+
+.famous-region>button:nth-child(3) {
+    background: #FFA782;
+}
+
+.famous-region>button:nth-child(4) {
+    background: #F5D005;
+}
+
+.famous-region>button:nth-child(5) {
+    background: #559AC8;
+}
+
+.famous-region>button {
+    font-family: .PingFangTC-Regular;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin-left: 20px;
+    width: 130px;
+    height: 42px;
+
+}
+
+/*=======================Header section end================================*/
+.middleline-box {
+    position: relative;
+    height: 30px;
+    width: 900px;
+    margin-top: 150px;
+    margin-bottom: 60px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.middleline {
+    border-top: 1px dashed #559AC8;
+}
+
+.middleline-box>button {
+    position: absolute;
+    top: -15px;
+    left: 450px;
+    display: block;
+    height: 30px;
+    width: 30px;
+    background-image: url(./img/icons_down.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-color: #559AC8;
+    border-radius: 50%;
+
+}
+
+/*=======================Content section================================*/
+.viewpoint-content {
+    background-color: chartreuse;
+    /* background-color: #F5D005; */
+}
+
+h2 {
+    display: block;
+    font-family: .SFNSDisplay;
+    font-size: 36px;
+    color: #8A82CC;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.viewpoint-block {
+    float: left;
+    background: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.20);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    height: 273px;
+    width: 464px;
+
+}
+
+.block-background {
+    position: relative;
+    height: 155px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.viewpoint-btm>span {
+    display: block;
+}
+
+.block-background>span:nth-child(1) {
+    display: block;
+    position: absolute;
+    top: 110px;
+    left: 20px;
+    ont-family: .SFNSDisplay;
+    font-size: 24px;
+    color: #FFFFFF;
+
+
+}
+
+.block-background>span:nth-child(2) {
+    display: block;
+    position: absolute;
+    top: 120px;
+    left: 380px;
+    font-family: .PingFangTC-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+
+/*=======================Footer section================================*/
+.footer {
+    height: 90px;
+    background: #559AC8;
+}
+
+.footer>span {
+    display: block;
+    text-align: center;
+}
+
+.footer>span:nth-child(1) {
+    font-family: .AppleSystemUIFont;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer>span:nth-child(2) {
+    font-family: .AppleSystemUIFont;
+    font-size: 14px;
+    color: #FFD366;
+}
+
+/*=======================Footer section end================================*/

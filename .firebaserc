@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "demo-web": "kh-viewpoint-hosting",
+    "default": "kh-viewpoint-hosting"
+  }
+}

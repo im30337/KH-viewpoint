@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "KH-viewpoint",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

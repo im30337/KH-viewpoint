@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name=”description” content="高雄市旅遊資訊為高雄各區的景點搜尋網頁,能找到各區知名景點的詳細資訊,並在googlemap上顯示位置">
+    <!-- Fackbook meta -->
+    <meta property="og:title" content="高雄景點" />
+    <meta property="og:type" content="travel" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:site_name" content="高雄市旅遊資訊" />
+    <meta property="og:description" content="" />
+    <title>高雄市旅遊資訊</title>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/index.js"></script>
+    <!-- 引用Google Map JavaScript API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzG-LhKJoDN8VMFpg-ZnuIhKvQYXHOgKI"></script>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <div class="headerbox">
+                <h1>高雄市旅遊資訊</h1>
+                <select name="region" class="selectlist">
+                    <option value="" disabled selected hidden>--請選擇行政區--</option>
+                    <option value="楠梓區" class="region-option">楠梓區</option>
+                    <option value="左營區" class="region-option">左營區</option>
+                    <option value="鼓山區" class="region-option">鼓山區</option>
+                    <option value="三民區" class="region-option">三民區</option>
+                    <option value="苓雅區" class="region-option">苓雅區</option>
+                    <option value="新興區" class="region-option">新興區</option>
+                    <option value="前金區" class="region-option">前金區</option>
+                    <option value="鹽埕區" class="region-option">鹽埕區</option>
+                    <option value="前鎮區" class="region-option">前鎮區</option>
+                    <option value="旗津區" class="region-option">旗津區</option>
+                    <option value="小港區" class="region-option">小港區</option>
+                </select>
+                <div class="famous-region">
+                    <span>熱門行政區</span>
+                    <button class="famous-region-btn">苓雅區</button>
+                    <button class="famous-region-btn">三民區</button>
+                    <button class="famous-region-btn">新興區</button>
+                    <button class="famous-region-btn">鹽埕區</button>
+                </div>
+            </div>
+        </header>
+        <div class="middleline-box">
+            <div class="middleline"> </div>
+            <button class="middleline-btn" href="#map"> </button>
+        </div>
+        <h2> </h2>
+        <div class="viewpoint-content-position">
+            <div class="viewpoint-content"> </div>
+        </div>
+        <div class="page-button clearfix"></div>
+        <div class="googlemap-section" id="map">
+
+        </div>
+        <div class="footer">
+            <span>高雄旅遊網</span>
+            <span>資料來源:高雄市政府</span>
+        </div>
+    </div>
+</body>
+
+</html>
