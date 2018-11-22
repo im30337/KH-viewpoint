@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "KH-viewpoint",
+    "public": ".",
     "ignore": [
       "firebase.json",
       "**/.*",
